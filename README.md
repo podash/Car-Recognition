@@ -11,7 +11,7 @@
 
 Use the Cars Dataset, which contains 16,185 images of 196 classes of cars. The data is split into 8,144 training images and 8,041 testing images, where each class has been split roughly in a 50-50 split.
 
- ![image](https://github.com/podash/Car-Recognition/images/random.jpg)
+ ![image](https://github.com/podash/Car-Recognition/blob/main/images/random.jpg)
 
 
 ```bash
@@ -82,5 +82,5 @@ prob: 0.9999994
 |Mitsubishi Lancer Sedan 2012, prob: 0.4401|Cadillac CTS-V Sedan 2012, prob: 0.9801|Chevrolet Traverse SUV 2012, prob: 0.9999|Bentley Continental GT Coupe 2012, prob: 0.9953|
 |![image](https://github.com/podash/Car-Recognition/blob/main/images/12_out.png) | ![image](https://github.com/podash/Car-Recognition/blob/main/images/13_out.png)| ![image](https://github.com/podash/Car-Recognition/blob/main/images/14_out.png)|![image](https://github.com/podash/Car-Recognition/blob/main/images/15_out.png)|
 |Nissan Juke Hatchback 2012, prob: 0.9935|Chevrolet TrailBlazer SS 2009, prob: 0.987|Hyundai Accent Sedan 2012, prob: 0.9826|Ford Fiesta Sedan 2012, prob: 0.6502|
-|![image](https://github.com/podash/Car-Recognition/blob/main/images/16_out.png) | ![image](https://github.com/podash/Car-Recognition/blob/main/images/17_out.png)|![image](https://github.com/podash/Car-Recognition/blob/main/images/18_out.png) | ![image](https://github.com/podash/Car-Recognition/images/19_out.png)|
+|![image](https://github.com/podash/Car-Recognition/blob/main/images/16_out.png) | ![image](https://github.com/podash/Car-Recognition/blob/main/images/17_out.png)|![image](https://github.com/podash/Car-Recognition/blob/main/images/18_out.png) | ![image](https://github.com/podash/Car-Recognition/blob/main/images/19_out.png)|
 |Acura TL Sedan 2012, prob: 0.9999|Aston Martin V8 Vantage Coupe 2012, prob: 0.5487|Infiniti G Coupe IPL 2012, prob: 0.2621|Ford F-150 Regular Cab 2012, prob: 0.9995|
