@@ -11,7 +11,7 @@
 
 Use the Cars Dataset, which contains 16,185 images of 196 classes of cars. The data is split into 8,144 training images and 8,041 testing images, where each class has been split roughly in a 50-50 split.
 
- ![image](https://github.com/podash/Car-Recognition/images/random.jpg)
+ ![image](https://github.com/podash/Car-Recognition/blob/main/images/random.jpg)
 
 
 ```bash
@@ -41,7 +41,7 @@ To visualize during training, run in your terminal:
 $ tensorboard --logdir path_to_current_dir/logs
 ```
 
- ![image](https://github.com/podash/Car-Recognition/images/train.jpg)
+ ![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/train.jpg)
 
 ### Analysis
 Update "model_weights_path" in "utils.py" with your best model, and use 1,629 validation images for result analysis:
@@ -54,7 +54,7 @@ $ python analyze.py
 
 #### Confusion matrix:
 
- ![image](https://github.com/podash/Car-Recognition/images/confusion_matrix.jpg)
+ ![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/confusion_matrix.jpg)
 
 
 ### Demo
@@ -64,7 +64,7 @@ $ python demo.py --i [image_path]
 ```
 If no argument, a sample image is used:
 
- ![image](https://github.com/podash/Car-Recognition/images/samples/07647.jpg)
+ ![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/samples/07647.jpg)
 
 ```bash
 $ python demo.py
@@ -74,13 +74,13 @@ prob: 0.9999994
 
 1 | 2 | 3 | 4 |
 |---|---|---|---|
-|![image](https://github.com/podash/Car-Recognition/images/0_out.png)  | ![image](https://github.com/podash/Car-Recognition/images/1_out.png) | ![image](https://github.com/podash/Car-Recognition/images/2_out.png)|![image](https://github.com/podash/Car-Recognition/images/3_out.png) |
+|![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/0_out.png)  | ![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/1_out.png) | ![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/2_out.png)|![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/3_out.png) |
 |Hyundai Azera Sedan 2012, prob: 0.99|Hyundai Genesis Sedan 2012, prob: 0.9995|Cadillac Escalade EXT Crew Cab 2007, prob: 1.0|Lamborghini Gallardo LP 570-4 Superleggera 2012, prob: 1.0|
-|![image](https://github.com/podash/Car-Recognition/images/4_out.png)  | ![image](https://github.com/podash/Car-Recognition/images/5_out.png) | ![image](https://github.com/podash/Car-Recognition/images/6_out.png)|![image](https://github.com/podash/Car-Recognition/images/7_out.png) |
+|![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/4_out.png)  | ![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/5_out.png) | ![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/6_out.png)|![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/7_out.png) |
 |BMW 1 Series Coupe 2012, prob: 0.9948|Suzuki Aerio Sedan 2007, prob: 0.9982|Ford Mustang Convertible 2007, prob: 1.0|BMW 1 Series Convertible 2012, prob: 1.0|
-|![image](https://github.com/podash/Car-Recognition/images/8_out.png)  | ![image](https://github.com/podash/Car-Recognition/images/9_out.png) | ![image](https://github.com/podash/Car-Recognition/images/10_out.png)|![image](https://github.com/podash/Car-Recognition/images/11_out.png)|
+|![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/8_out.png)  | ![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/9_out.png) | ![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/10_out.png)|![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/11_out.png)|
 |Mitsubishi Lancer Sedan 2012, prob: 0.4401|Cadillac CTS-V Sedan 2012, prob: 0.9801|Chevrolet Traverse SUV 2012, prob: 0.9999|Bentley Continental GT Coupe 2012, prob: 0.9953|
-|![image](https://github.com/podash/Car-Recognition/images/12_out.png) | ![image](https://github.com/podash/Car-Recognition/images/13_out.png)| ![image](https://github.com/podash/Car-Recognition/images/14_out.png)|![image](https://github.com/podash/Car-Recognition/images/15_out.png)|
+|![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/12_out.png) | ![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/13_out.png)| ![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/14_out.png)|![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/15_out.png)|
 |Nissan Juke Hatchback 2012, prob: 0.9935|Chevrolet TrailBlazer SS 2009, prob: 0.987|Hyundai Accent Sedan 2012, prob: 0.9826|Ford Fiesta Sedan 2012, prob: 0.6502|
-|![image](https://github.com/podash/Car-Recognition/images/16_out.png) | ![image](https://github.com/podash/Car-Recognition/images/17_out.png)|![image](https://github.com/podash/Car-Recognition/images/18_out.png) | ![image](https://github.com/podash/Car-Recognition/images/19_out.png)|
+|![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/16_out.png) | ![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/17_out.png)|![image](https://github.com/podash/Car-Recognition/blob/main/imagesimages/18_out.png) | ![image](https://github.com/podash/Car-Recognition/images/19_out.png)|
 |Acura TL Sedan 2012, prob: 0.9999|Aston Martin V8 Vantage Coupe 2012, prob: 0.5487|Infiniti G Coupe IPL 2012, prob: 0.2621|Ford F-150 Regular Cab 2012, prob: 0.9995|
